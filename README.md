@@ -1,15 +1,19 @@
----
-title: Ipl Win Predictor
-emoji: 🏏
-colorFrom: red
-colorTo: red
-sdk: docker
-app_port: 7860
-tags:
-- streamlit
-pinned: false
-short_description: IPL match win predictor using XGBoost and LightGBM
-license: mit
----
 # IPL Win Predictor
-Built with XGBoost, LightGBM, and SHAP. 77% live accuracy.
+
+A Machine Learning web application that predicts IPL match win probabilities based on live match conditions.
+
+## Features
+- Real-time win probability prediction
+- Interactive UI
+- Machine Learning model
+- Deployed on Hugging Face Spaces
+
+## Tech Stack
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Streamlit
+
+## Live Demo
+https://huggingface.co/spaces/Mihir2005/ipl-win-predictor
