@@ -546,7 +546,7 @@ st.markdown("""
 # In[ ]:
 
 
-get_ipython().system('jupyter nbconvert --to script Streamlit.ipynb --output app')
+# get_ipython().system('jupyter nbconvert --to script Streamlit.ipynb --output app')
 
 
 # In[ ]:
